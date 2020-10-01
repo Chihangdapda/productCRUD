@@ -1,0 +1,10 @@
+<div style="margin-left: 3%">
+<h2>Delete Product: {{product.name}}</h2>
+<h4 style="color: crimson">Are you sure?</h4>
+<br>
+<h4>{{product.name}}</h4>
+<h4>{{product.price}}</h4>
+<h4>{{product.status}}</h4>
+<input type="submit" value="Delete" (click)="delete()" class="btn btn-outline-primary">
+<button class="btn btn-outline-primary" [routerLink]="''">Back To List</button>
+</div>
